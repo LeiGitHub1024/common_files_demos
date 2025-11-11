@@ -1,0 +1,10 @@
+{
+  "name": "示例配置文件",
+  "version": "1.0.0",
+  "description": "这是一个JSON格式的配置文件示例",
+  "settings": {
+    "language": "zh-CN",
+    "theme": "dark"
+  }
+}
+
