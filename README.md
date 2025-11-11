@@ -14,7 +14,7 @@
 - **.rtf** - 富文本格式，支持基本格式化
 - **.odt** - OpenDocument文本格式，开源标准
 
-**示例文件**: `text_files/example.txt`
+**示例文件**: `text_files/example.txt`, `text_files/example.docx`, `text_files/example.pdf`, `text_files/example.rtf`, `text_files/example.odt`
 
 ### 2. 图片文件 (image_files)
 
@@ -27,7 +27,7 @@
 - **.svg** - 可缩放矢量图形，基于XML
 - **.tiff** - TIFF图像格式，支持无损压缩
 
-**注意**: 图片文件为二进制格式，本仓库仅提供空文件夹，请自行添加示例图片。
+**示例文件**: `image_files/example.jpg`, `image_files/example.png`, `image_files/example.gif`, `image_files/example.bmp`, `image_files/example.svg`, `image_files/example.tiff`
 
 ### 3. 音频文件 (audio_files)
 
@@ -39,7 +39,7 @@
 - **.flac** - FLAC音频格式，无损压缩
 - **.ogg** - OGG音频格式，开源标准
 
-**注意**: 音频文件为二进制格式，本仓库仅提供空文件夹，请自行添加示例音频。
+**示例文件**: `audio_files/example.mp3`, `audio_files/example.wav`, `audio_files/example.aac`, `audio_files/example.flac`, `audio_files/example.ogg`
 
 ### 4. 视频文件 (video_files)
 
@@ -51,7 +51,7 @@
 - **.mov** - QuickTime视频格式，Apple标准
 - **.wmv** - Windows Media Video格式
 
-**注意**: 视频文件为二进制格式，本仓库仅提供空文件夹，请自行添加示例视频。
+**示例文件**: `video_files/example.mp4`, `video_files/example.avi`, `video_files/example.mkv`, `video_files/example.mov`, `video_files/example.wmv`
 
 ### 5. 压缩文件 (archive_files)
 
@@ -63,7 +63,7 @@
 - **.tar** - TAR归档格式，Unix/Linux常用
 - **.gz** - GZIP压缩格式，常与tar配合使用
 
-**注意**: 压缩文件为二进制格式，本仓库仅提供空文件夹，请自行添加示例压缩包。
+**示例文件**: `archive_files/example.zip`, `archive_files/example.rar`, `archive_files/example.7z`, `archive_files/example.tar`, `archive_files/example.gz`
 
 ### 6. 可执行文件 (executable_files)
 
@@ -78,6 +78,8 @@
 
 - `executable_files/example.sh` - Shell脚本示例
 - `executable_files/example.bat` - 批处理脚本示例
+- `executable_files/example.exe` - Windows可执行文件示例
+- `executable_files/example.msi` - Windows安装程序示例
 
 ### 7. 表格文件 (spreadsheet_files)
 
@@ -86,7 +88,7 @@
 - **.xls / .xlsx** - Microsoft Excel表格格式
 - **.ods** - OpenDocument电子表格格式
 
-**注意**: 表格文件为二进制格式，本仓库仅提供空文件夹，请自行添加示例表格。
+**示例文件**: `spreadsheet_files/example.xlsx`, `spreadsheet_files/example.ods`
 
 ### 8. 演示文稿文件 (presentation_files)
 
@@ -95,17 +97,21 @@
 - **.ppt / .pptx** - Microsoft PowerPoint演示文稿格式
 - **.odp** - OpenDocument演示文稿格式
 
-**注意**: 演示文稿文件为二进制格式，本仓库仅提供空文件夹，请自行添加示例演示文稿。
+**示例文件**: `presentation_files/example.pptx`, `presentation_files/example.odp`
 
 ### 9. 数据库文件 (database_files)
 
 用于存储数据库结构和数据的文件类型。
 
-- **.mdb / .accdb** - Microsoft Access数据库文件
+- **.mdb** - Microsoft Access数据库文件
 - **.sql** - SQL脚本文件，包含数据库操作语句
 - **.db** - SQLite数据库文件
 
-**示例文件**: `database_files/example.sql` - SQL脚本示例
+**示例文件**:
+
+- `database_files/example.sql` - SQL脚本示例
+- `database_files/example.db` - SQLite数据库示例
+- `database_files/example.mdb` - Access数据库示例
 
 ### 10. 网页文件 (web_files)
 
@@ -133,7 +139,6 @@
 **示例文件**:
 
 - `code_files/example.c` - C语言示例
-- `code_files/example.cpp` - C++示例
 - `code_files/example.java` - Java示例
 - `code_files/example.py` - Python示例
 - `code_files/example.php` - PHP示例
@@ -158,7 +163,7 @@
 
 - **文件类别**: 12类
 - **文件格式**: 48种
-- **示例文件**: 已提供文本格式文件的示例
+- **示例文件**: 所有文件类型均已提供示例文件
 
 ## 🚀 使用方法
 
@@ -168,9 +173,10 @@
 
 ## 📝 注意事项
 
-- 二进制文件（图片、音频、视频、压缩包、Office文档等）无法直接以文本形式展示，因此仅提供空文件夹
-- 所有文本格式的文件都已提供示例
-- 欢迎补充更多示例文件
+- 本仓库提供了所有常见文件类型的示例文件
+- 二进制文件（图片、音频、视频、压缩包、Office文档等）虽然无法直接以文本形式查看，但已提供示例文件供下载使用
+- 文本格式的文件可以直接查看内容
+- 欢迎补充更多文件类型的示例
 
 ## 🤝 贡献
 
